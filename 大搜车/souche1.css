@@ -1,0 +1,89 @@
+		.banner{width: 1280px;margin:0 auto;}
+		.left{float: left;margin-top: 20px;width: 240px}
+		.left-t{width: 228px;height: 38px;line-height: 40px;padding-left:15px;background-color: rgb(245,245,245);color: rgb(255,87,26);font-weight: bold}
+		.right{float: right;width: 1020px;}
+		.left-bottom{padding: 15px}
+		.left-a1{float: right;font-size: 12px;color: rgb(102,102,102);}
+	
+		.left-a1:hover{color:rgb(255,87,26) }
+		.cls{margin-bottom: 15px}
+		.left-a{height:160px ;width: 210px;border-bottom:1px solid rgb(224,224,224);margin-bottom: 20px}
+		.left-a a{font-size: 12px;color: rgb(102,102,102);margin:0 22px 13px 0;}
+		.left-a a:hover{color:rgb(255,87,26) }
+		.left-a .dis{margin: 0px}
+		.hh{margin-top: 14px}
+
+		.fk a{display: block;width: 24px;height: 8px;background-color: rgb(217,217,217);margin: 25px 2px 20px 0;float: left;cursor: pointer;}
+		.fk a:hover{background-color:rgb(255,87,26); }
+		.fk .span1{margin-right:0px;}
+		.fk-bt {margin: 0px;padding:0px;margin: -10px 0 20px 0;font-size: 	12px}
+		.fk-bt li{float: left;display: 	block;	margin-right: 14px;margin-bottom: 	20px}
+
+		.inputbox{margin:10px 0 22px 0;border:1px solid rgb(229,229,229);padding: 5px;height: 16px;line-height: 16px;width: 210px;outline: none;font-size: 12px;color: rgb(109,109,109)}
+		.inp-t:focus{outline:1px solid rgb(230,230,230);}
+		.inpu-box{width: 245px;position: relative;}
+
+		.inpu-box a{position: absolute;right:25px;top:17px;height: 20px;width: 20px;background: url(image/2.png) no-repeat}}
+
+		.right{width:1020px;float: right;}
+		.sellCase{
+			font-size: 12px;
+			margin-top: 20px;
+			float: right;
+			width: 1018px; 
+			height: 80px;
+			border: 1px solid #DDDDDD;
+		}
+		.onOffer{
+			float: left;
+			font-size: 14px;
+			color:#FF571A;
+			width: 112px; 
+			height: 39px;
+			line-height: 39px;
+			text-align: center;
+			border-right: 1px solid #DDDDDD;
+		}
+		.onOffer span{
+			color: #666666;
+		}
+		.sold{
+			float: left;
+			font-size: 14px;
+			width: 112px;
+			height: 39px;
+			text-align: center;
+			line-height: 39px;
+			border-width: 0px 1px 1px 0px;
+			border-style: solid;
+			border-color: #DDDDDD
+		}
+		.sold span{
+			color: #666666;
+		}
+		.screenBox{
+			height:35px;
+		 	line-height:35px ; 
+		 	float: right;
+			padding: 5px;
+		 }
+		.screen-span{color:rgb(255,87,26);}
+		.sc-span a{height: 30px;line-height: 30px;margin-left: 20px}
+		.sc-span a:hover{color:rgb(255,87,26) }
+		.sc-a1,.sc-a2{text-align: center;position: relative;top:4px;left: 5px}
+		.a-input,.a-span{float: left;vertical-align:middle}
+		.a-input{height: 14px;width: 14px;margin-left: 15px;vertical-align:middle;margin-top: -1px}
+		
+		.a-span{margin-left: 5px;height: 14px;}
+		.right-box-img{width: 240px;height: 160px;cursor: pointer;}
+		.right-box a{font-size: 14px;font-weight:bold;color: rgb(51,51,51)}
+		.right-box a:hover{color: rgb(255,87,26);}
+		.pa{height: 50px;line-height: 16px}
+		.ps{display: block;color: rgb(255,87,26);font-size: 16px;font-weight: bold;margin-top: 30px}
+		.pp{display: block;color: rgb(153,153,153);margin-top: 14px;font-size: 	12px}
+		.hr{width: 212px;background-color: rgb(230,230,230);position: absolute;margin-top: 22px}
+		.sm{display: block;width:57px;height: 17px;background:url(image/sj.png) no-repeat ;margin-top: 34px }
+		.right-t{width: 218px;height: 149px;border-left: 1px solid rgb(230,230,230);border-right: 1px solid rgb(230,230,230);border-bottom	: 1px solid rgb(230,230,230);padding: 10px;margin-top: 	-2px;	}
+		.right-box{float: left;margin-top: 	60px;margin-right: 	20px}
+		.rt-box{margin-right: 0px}
+		.ri-box{margin-top: 20px}

@@ -1,0 +1,472 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="top.css">
+	<link rel="stylesheet" type="text/css" href="fixed.css">
+	<link rel="stylesheet" type="text/css" href="public.css">
+	<link rel="stylesheet" type="text/css" href="bottom.css">
+	<meta charset="utf-8"/>
+	<title>摆车	首页</title>
+	<style>
+		
+		.banner{
+			position:relative;
+			height:460px;
+		}
+		.banner:hover i{
+			opacity:.5;
+		}
+		.banner a{
+			background:url(image/banner-img1.png);
+			position:absolute;
+			width:100%;
+			height:100%;
+		
+			background-position:center;
+			background-size:100% 100%;
+		}
+		.banner .current{
+			z-index:1;
+		}
+		.banner i{
+			position:absolute;
+			top:208px;
+			width:25px;
+			height:44px;
+			z-index:1;
+			opacity:0;
+			transition:opacity .5s;
+		}
+		.banner i:hover{
+			opacity:1;
+		}
+		.banner .previous{
+			left:66px;
+			background-position:0 -37px;
+		}
+		.banner .next{
+			right:66px;
+			background-position:-26px -37px;
+		}
+		.lmr{
+			width: 1400px;
+			margin:0 auto;
+			
+		}
+		.nav{height:139px;
+			border:1px solid rgb(217, 217, 217);}
+		.left{margin-top:20px ;padding:0 10px;width:435px;float: left;border-right:1px solid rgb(238,238,238); }
+		.left span{float: left;font-size: 18px;font-weight: bold}
+		.left-a{float:right;font-size: 12px;color: rgb(102,102,102);}
+		.left a:hover{color: rgb(255,87,26);}
+		.left a{font-size: 12px;color: rgb(195,195,195);margin:20px 0px 0 0;color: rgb(102,102,102)}
+		.right a{font-size: 16px;margin-left: 20px;margin-top: -2px;line-height: 30px}
+
+		.content-bg{background-color:rgb(242,242,242);height: 1076px }
+		.content{width: 1190px;margin:0 auto;text-align: center;padding: 90px 0px}
+		.cont-span{font-size:32px;font-weight: bold;color: rgb(52,52,52); margin-bottom: 20px}
+		.cont-p{font-size:16px;color: #999;margin-bottom: 60px }
+		.cont-banner{width: 570px;height: 240px;text-align: center;float: left;background-color: white;margin: 20px 20px 0 0}
+		.cont-banner-img{float: left;}
+		.cont-banner .cont-banner-right h1{font-size:20px;line-height: 30px;margin-top: 27px }
+		.cont-banner-right p{line-height: 20px;font-size: 14px;color: #999;height: 55px}
+		.cont-banner-right{float:right;width: 285px;text-align: center;}
+		.content-img{transition:margin-right .5s;margin-top: -20px}
+		.cont-banner:hover .content-img {margin-right: 20px;}
+		.cont-banner:hover{box-shadow:0 4px 6px 2px  #ccc }
+		.content-foot{width: 1160px;margin:0 auto;padding: 90px 0 0 0}
+		.foot{height: 470px;}
+		.cont-sp{text-align: center;}
+		.foot-left{float:left;width: 28%;padding: 0 30px 0 20px;border-right: 1px solid rgb(230,230,230);}
+		.app span{font-size: 22px;}
+		.app{color: rgb(51,51,51);font-weight: bold;}
+		.app img{float: left;}
+		.text-foot{float: left;margin-left: 20px;margin-top:5px ;}
+		.app-p1{color:#999;line-height: 15px ;margin-bottom:0px;margin-top: 20px;font-size: 12px}
+		.pppp1{margin-top:0px;color:#999;}
+		.app-p2 a{color: rgb(255,87,26);line-height:18px; }
+		.foot-right{border:0px;}
+		.app-p3{width: 300px}
+		.app-p4{margin-top:27px}
+	</style>
+</head>
+<body>
+<div class="top-bg">
+	<div class="top" id="top">
+		<a href="" class="logo"></a>
+		<div class="area">
+			<span>杭州</span>
+			<div class="fixedBox"></div>
+		</div>
+		<a href="">首页</a>
+		<a href="file:///G:/%E5%A4%A7%E6%90%9C%E8%BD%A6/souche.html">我要买车</a>
+		<a href="">我要卖车</a>	
+		<div class="sj">商家服务
+			<!-- <div class="sj-sm">
+				<a href="" class="p1">大风车</a>
+				<a href="" class="p2">牛车</a>
+			</div> -->
+			<div class="clear"></div>
+		</div>
+		<a href="" class="a1">关于我们</a>
+		<div class="input-box">
+			<input type="botton" name="" class="inp-t" placeholder="搜索" id="inp-t">
+			<a href=""></a>
+		</div>
+		<div class="dl">
+			<a href="">登录</a>
+			<a href="" class="a2">注册</a>	
+		</div>
+		<div class="call"></div>
+	</div>
+	<div class="clear"></div>
+</div> 
+		<div class="fixedNav">
+			<div>我的车库</div>
+			<a class="anchor">
+				<i class="icon favor"></i>
+				<span>关注的车</span>
+			</a>
+			<a class="anchor">
+				<i class="icon consult"></i>
+				<span>咨询的车</span>
+			</a>
+			<a class="anchor">
+				<i class="icon sell"></i>
+				<span>估价卖车</span>
+			</a>
+			<a class="anchor">
+				<i class="icon feedback"></i>
+				<span>反馈信息</span>
+			</a>
+		</div>
+
+<div class="banner" id="banner">
+	<a href=""></a>
+</div>
+<div class="nav">
+	<div class="lmr">
+		<div class="left">
+			<span>品牌</span>
+			<p class="left-a">﹀</p>
+			<div class="clear"></div>
+			<a href=""><img src="image/t1.png"></a>
+			<a href=""><img src="image/t2.png"></a>
+			<a href=""><img src="image/t3.png"></a>
+			<a href=""><img src="image/t4.png"></a>
+			<a href=""><img src="image/t5.png"></a>
+			<a href=""><img src="image/t6.png"></a>
+			<a href=""><img src="image/t7.png"></a>
+			<a href=""><img src="image/t8.png"></a>
+		</div>
+		<div class="left">
+			<span>车型</span>
+			<p class="left-a">﹀</p>
+			<div class="clear"></div>
+			<a href=""><img src="image/s1.png"></a>
+			<a href=""><img src="image/s2.png"></a>
+			<a href=""><img src="image/s1.png"></a>
+			<a href=""><img src="image/s1.png"></a>
+			<a href=""><img src="image/s2.png"></a>
+			<a href=""><img src="image/s1.png"></a>
+			<a href=""><img src="image/s1.png"></a>
+		</div>
+		<div class="left right">
+			<span>价格</span>
+			<p class="left-a">﹀</p>
+			<div class="clear"></div>
+			<a href="">8万以下</a>
+			<a href="">8-10万</a>
+			<a href="">10-15万</a>
+			<a href="">15-20万</a>
+			<a href="">20-30万</a>
+			<a href="">30-50万</a>
+			<a href="">50万以上</a>
+		</div>
+	</div>
+</div>
+<div class="content-bg">
+	<div class="content">
+		<span class="cont-span">生活的智慧，就是选我所爱</span>
+		<p class="cont-p">总有一款车，能天衣无缝地融入你的生活</p>
+		<a href="" class="cont-banner">
+			<img src="image/ban-image1.png" class="cont-banner-img">
+			<div class="cont-banner-right">
+				<h1>豪车不止BBA</h1>
+				<p>德系三架马车，是时候退位让贤啦</p>
+				<img src="image/car1.png" class="content-img">
+			</div>
+		</a>
+		<a href="" class="cont-banner">
+			<img src="image/car7.png" class="cont-banner-img">
+			<div class="cont-banner-right">
+				<h1>豪车不止BBA</h1>
+				<p>德系三架马车，是时候退位让贤啦</p>
+				<img src="image/car2.png" class="content-img">
+			</div>
+		</a>
+		<a href="" class="cont-banner">
+			<img src="image/car3.png" class="cont-banner-img">
+			<div class="cont-banner-right">
+				<h1>豪车不止BBA</h1>
+				<p>德系三架马车，是时候退位让贤啦</p>
+				<img src="image/car2.png" class="content-img">
+			</div>
+		</a>
+		<a href="" class="cont-banner">
+			<img src="image/car4.png" class="cont-banner-img">
+			<div class="cont-banner-right">
+				<h1>豪车不止BBA</h1>
+				<p>德系三架马车，是时候退位让贤啦</p>
+				<img src="image/car2.png" class="content-img">
+			</div>
+		</a>
+		<a href="" class="cont-banner">
+			<img src="image/car5.png" class="cont-banner-img">
+			<div class="cont-banner-right">
+				<h1>豪车不止BBA</h1>
+				<p>德系三架马车，是时候退位让贤啦</p>
+				<img src="image/car1.png" class="content-img">
+			</div>
+		</a>
+		<a href="" class="cont-banner">
+			<img src="image/car6.png" class="cont-banner-img">
+			<div class="cont-banner-right">
+				<h1>豪车不止BBA</h1>
+				<p>德系三架马车，是时候退位让贤啦</p>
+				<img src="image/car1.png" class="content-img">
+			</div>
+		</a>
+	</div>
+</div>
+<div class="clear"></div>
+<div class="foot">
+	<div class="content-foot">
+		<div class="cont-sp">
+			<span class="cont-span">经营的智慧，我们让您领先一步</span>
+			<p class="cont-p">大风车和车牛，助您提升经营效率</p>
+		</div>
+		<div class="foot-left">
+			<div class="app">
+				<img src="image/app-img1.png">
+				<div class="text-foot">
+					<span>弹个车</span>
+					<p>面向消费者</p>
+				</div>
+			</div>
+			<div class="clear"></div>
+			<p class="app-p1">基于消费者个人信用提供超低首付、超长分期，灵活智选的汽车融资租赁个性化解决方案
+				<p class="pppp1">支持 IOS / Android</p>
+			</p>
+			<p class="app-p2">
+				<a href="">查看更多</a>
+			</p>
+		</div>
+		<div class="foot-left">
+			<div class="app">
+				<img src="image/app-img2.png">
+				<div class="text-foot">
+					<span>大风车</span>
+					<p>面向拥有展厅和销售团队的大车商</p>
+				</div>
+			</div>
+			<div class="clear"></div>
+			<p class="app-p1 app-p3">
+			评估管理、车辆管理、客户管理、经营数据......一应俱全
+
+			支持 IOS / Android / PC 端
+
+			</p>
+			<p class="app-p2 app-p4">
+				<a href="">查看更多</a>
+			</p>
+		</div>
+		<div class="foot-left foot-right">
+			<div class="app">
+				<img src="image/app-img3.png">
+				<div class="text-foot">
+					<span>牛车</span>
+					<p>面向经营二手车的中小车商</p>
+				</div>
+			</div>
+			<div class="clear"></div>
+			<p class="app-p1">
+				收车、卖车、贷款、质保、估价......一步到位
+
+				支持 IOS / Android
+			</p>
+			<p class="app-p2 app-p4">
+				<a href="">查看更多</a>
+			</p>
+		</div>
+	</div>
+</div>
+<div class="bottom-bg">
+	<div class="bottom">
+		<div class="bottom-text">
+			<div class="bottom-text1">
+				<span>导购大全</span>
+				<a href="" class="bottom-text1-p1">城市大全</a>	
+				<a href="">品牌大全</a>
+				<a href="">车系大全</a>
+			</div>
+			<div class="bottom-text1">
+				<span>购车指南</span>
+				<a href=""class="bottom-text1-p1">如何挑选二手车</a>	
+				<a href="">品牌大全</a>
+				<a href="">车系大全</a>
+			</div>
+			<div class="bottom-text1">
+				<span>关于我们</span>
+				<a href=""class="bottom-text1-p1">大搜车理念</a>	
+				<a href="">车牛</a>
+				<a href="">大风车</a>
+				<a href="">大搜车手机版</a>
+			</div>
+			<div class="bottom-text1">
+				<span>联系我们</span>
+				<a href=""class="bottom-text1-p1">联系电话</a>		
+			</div>
+			<div class="bottom-text1 txt">
+				<img src="image/ewm.png" style="margin-left:30px">
+				<p>扫一扫，关注微信公众号</p>		
+			</div>
+		</div>
+		<div class="clear"></div>
+		<div class="hot-city">
+			<span>热门城市：</span>                                    
+			<a href="">厦门</a>
+			<a href="">北京</a>
+			<a href="">南宁</a>
+			<a href="">杭州</a>
+			<a href="">郑州</a>
+			<a href="">漳州</a>
+			<a href="">长沙</a>
+			<a href="">合肥</a>
+			<a href="">西安</a>
+			<a href="">上海</a>
+			<a href="">宁波</a>
+			<a href="">温州</a>
+			<a href="">太原</a>
+			<a href="">青岛</a>
+			<a href="">南京</a>
+			<a href="">武汉</a>
+			<a href="">沈阳</a>
+			<a href="">成都</a>
+			<a href="">石家庄</a>
+			<a href="">重庆</a>
+			<a href="">台州</a>
+			<a href="">大连</a>
+			<a href="">福州</a>
+			<a href="">佛山</a>
+			<a href="">临沂</a>
+			<a href="">济南</a>
+			<a href="">苏州</a>
+			<a href="">贵阳</a>
+			<a href="">泉州</a>
+			<a href="">南昌</a>
+			<a href="">天津</a>
+			<a href="">东莞</a>
+			<a href="">深圳</a>
+			<a href="">昆明</a>
+			<a href="">广州</a>
+			<a href="">包头</a>
+			<a href="">鞍山</a>
+			<a href="">淮南</a>
+			<a href="">长春</a>
+			<a href="">金华</a>
+			<a href="">乌鲁木齐</a>
+			<a href="">无锡</a>
+			<a href="">无锡</a>
+			<a href="">柳州</a>
+			<a href="">潍坊</a>
+			<a href="">荆州</a>
+			<a href=""保定></a>
+			<a href="">枣庄</a>
+			<a href="">洛阳</a>
+			<a href="">常州</a>
+			<a href="">沧州</a>
+			<a href="">更多城市</a>
+			<div class="clear"></div>
+			<p class="bottom-document">Copyright © 2016 SouChe All Rights Reserved 杭州大搜车汽车服务有限公司 版权所有 京 ICP备 13012136号 京公网安备 11010802013095号</p>
+		</div>
+	</div>
+</div>
+</body>
+<script type="text/javascript">
+	document.getElementById("top").onclick = function(){
+	scrollTo(0, 0);
+	};
+
+	var bannerDate=[
+		{
+			title:"广告",
+			href:"",
+			url:"image/banner-img1.png"
+
+		},
+		{
+			title:"大风车",
+			href:"",
+			url:"image/banner-img2.png"
+
+		},
+		{
+			title:"广告",
+			href:"",
+			url:"image/banner-img3.png"
+
+		}
+	];
+function createBanner(option){
+	var data = option.data,
+		dataLen = data.length,
+		element = document.getElementById(option.element),
+		fragment = document.createDocumentFragment(),
+		a = 0,
+		images = data.map(function(item){
+			return fragment.appendChild(createImage(item));
+		}),
+		timer = createTimer();
+		function createImage(option){
+			var a = document.createElement("a");
+			a.href = option.href;
+			a.title = option.title;
+			a.style.backgroundImage = "url(" + option.url + ")";
+			return a;
+		}
+		function createTimer(){
+			return setInterval(function(){
+				var _a=a;
+				a = a >= dataLen -1 ? 0 : a+1;
+				images[_a].className="";
+				images[a].className="current";
+			},2000);
+		}
+		function createButton(className){
+			var i=document.createElement("i");
+			i.className="icon" +className;
+			i.onclick = function(){
+				clearInterval(timer);
+				timer = createTimer();
+				var _a = a;
+				if(className==="previous"){
+					a = a > 0 ? a-1 : dataLen-1;
+				}else{
+					a = a >= dataLen-1 ? 0 : a+1;
+				}
+				images[_a].className=null;
+				images[a].className="current";
+			};
+			return i;
+		}
+		images[a].className="current";
+		fragment.appendChild(createButton("previous"));
+		fragment.appendChild(createButton("next"));
+		element.appendChild(fragment);
+}
+
+
+</script>
+</html>

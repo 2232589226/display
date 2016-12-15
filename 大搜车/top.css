@@ -1,0 +1,41 @@
+		.top-bg{border-top: 4px solid #FF571A;height: 76px;line-height: 76px;border-bottom:1px solid #DCDCDC;}
+		.top{width:1240px;margin:0 auto;padding:20px 0;position: relative;z-index: 2; }
+		.logo{background: url(image/logo.png) no-repeat;width:82px;height:36px;float: left;}
+		.area{
+			float:left;
+			margin:3px 35px 3px 2px;
+			width:86px;
+			height:28px;
+			border:1px solid rgb(237, 237, 237);
+			border-radius:2px;}       
+		.area span{
+			display:block;
+			padding-left:23px;
+			height:28px;
+			line-height:28px;
+			font-size:14px;
+			color:rgb(102, 102, 102);
+			cursor:pointer;
+		}
+		.area .fixedBox{margin-top:3px;width: 360px;height: 235px;border:1px solid rgb(255,88,26);display: none}
+		.top a{float: left;line-height: 36px;margin: 0 18px;}
+		.top a:hover{color:rgb(255,88,26)}
+
+		.sj{float: left;width: 82px;line-height: 36px;text-align: center;border:2px solid transparent;margin-top: -2px;/*position: relative;z-index:12;*/}
+		/*.p1{margin:0px;padding:0px;padding-top: 14px;height: 27px;line-height: 27px;padding-left: -2px}
+		.sj-sm{display: none;position: absolute;z-index: 12;width: 80px}
+		.sj a:hover{color:rgb(255,87,26);}
+		.sj:hover .sj-sm{display: block;}
+		.sj:hover{display: block;
+			border:2px solid rgb(255,87,26);
+			background-color: #fff;
+			box-shadow:0 2px 4px 0 rgb(182, 182, 182)}*/
+
+		.input-box{float: left;width: 245px;position: relative;}
+		.input-box a{position: absolute;right:5px;top:4px;margin:0px;height: 20px;width: 20px;background: url(./image/icon_2.png) no-repeat}
+		.inp-t{float: left;padding: 5px;height: 16px;line-height: 16px;width: 210px;outline: none;border:2px solid rgb(230,230,230);font-size: 12px;color: rgb(109,109,109); margin-left: 20px;}
+		.input-box a:hover{background: url(./image/icon_1.png) no-repeat }
+		.dl{float: left;margin:8px 0 0 57px;height: 22px;line-height: 22px;border-right: 1px solid rgb(238,238,238);padding-right: 16px}
+		.dl a{font-size: 12px;margin:0 8px;line-height: 22px}
+		.dl a:hover{color: rgb(255,87,26);}
+		.call{float: left;background: url(image/phone-num.png) no-repeat;width: 119px;height: 16px;margin:10px 0 0 25px }

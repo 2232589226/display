@@ -1,0 +1,25 @@
+*{margin:0px;padding: 0px;line-height:1;
+	font-family:Microsoft Yahei;}
+ul,ol{list-style: none}
+a{text-decoration: none}
+.clear{clear:both}
+.top-bg{border-top: 4px solid #FF571A;height: 76px;line-height: 76px;border-bottom:1px solid #DCDCDC;}
+.top{width:1200px;margin:0 auto; }
+.logo{background: url(image/logo.png) no-repeat;width:82px;height:36px;float: left;margin:20px 0 20px 0px;}
+.area{
+	float:left;
+	margin:3px 50px 3px 18px;
+	width:86px;
+	height:28px;
+	border:1px solid rgb(237, 237, 237);
+	border-radius:2px;}       
+.area span{
+	display:block;
+	padding-left:23px;
+	height:28px;
+	line-height:28px;
+	font-size:14px;
+	color:rgb(102, 102, 102);
+	cursor:pointer;
+}
+.area .fixedBox{margin-top:3px;width: 360px;height: 235px;border:1px solid rgb(255,88,26);display: none}
